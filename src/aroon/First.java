@@ -1,15 +1,30 @@
 package aroon;
 
+import java.util.Iterator;
+
 public class First {
 
 	public static void main(String[] args) {
 		
-		int x=5;
-		int y=6;
-		int z=x+y;
-		System.out.println(z);
-		// hello
-
+	for (int i = 0; i <5; i++) {
+		for (int j = 0; j < i+1; j++) {
+			System.out.print("*");
+		}
+		System.out.println();
 	}
 
+	for (int i = 0; i <5; i++) {
+		for (int j = 0; j < i+1; j++) {
+			System.out.print("*");
+		}
+		System.out.println();
+	}
+	
+	for (int i = 0; i <10; i++) {
+			System.out.println("*");
+		
+		
+	}
+	}
 }
+	
